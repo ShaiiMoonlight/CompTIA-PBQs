@@ -18,7 +18,7 @@ Push these files to the repository's `main` branch. In GitHub repository **Setti
 
 ## Scenario assumptions
 
-These are original educational adaptations, not official CompTIA questions. Ambiguities in the supplied notes are resolved explicitly in each scenario: the UPS has sufficient capacity; router `.1` is a host address, not a network address; RAID 5 with one failed disk is degraded; eligible RAID spares are SAS HDDs, with lowest capacity then highest RPM used to choose; the gaming audio requirement is explicit; the access-point lab includes a simplified floor plan and interference assumptions. Real deployments require manufacturer specifications and measurements.
+These are original educational adaptations, not official CompTIA questions. Ambiguities in the supplied notes are resolved explicitly in each scenario: the UPS has sufficient capacity; router `.1` is a host address, not a network address; RAID 5 with one failed disk is degraded; eligible RAID spares are SAS HDDs, with RPM closest to the existing drives used to choose, then smallest sufficient capacity to break a speed tie; the gaming audio requirement is explicit; the access-point lab includes a simplified floor plan and interference assumptions. Real deployments require manufacturer specifications and measurements.
 
 ## Browser checks
 
